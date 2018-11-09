@@ -25,7 +25,7 @@ def readimg(imgname):
     # cv.imwrite('read_img/{}.png',img)
 
 if __name__ == "__main__":
-    Root = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data'
+    Root = ''
     subDir = ['rust_anno_train','rust_anno_val']
     for di in subDir:
         Dir = os.path.join(Root, 'annotation', di)

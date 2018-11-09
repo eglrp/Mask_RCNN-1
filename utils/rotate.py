@@ -3,8 +3,8 @@ import os
 import glob
 
 # read image as grey scale
-Dir = '/home/buiduchanh/WorkSpace/Javis/Mask_RCNN_train/tutorials/datasets/melona/test/rotate_img'
-Des = '/home/buiduchanh/WorkSpace/Javis/Mask_RCNN_train/tutorials/datasets/melona/test/melona_test2018'
+Dir = ''
+Des = ''
 imglist = sorted(glob.glob('{}/*'.format(Dir)))
 for img_ in imglist:
     print(img_)

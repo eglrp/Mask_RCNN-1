@@ -169,14 +169,14 @@ if __name__ == "__main__":
                             config=inference_config,
                             model_dir=MODEL_DIR)
 
-    model_path = '/home/buiduchanh/WorkSpace/Javis/Mask_RCNN_train/logs/bridge20181101T1343/mask_rcnn_bridge_0002.h5'
+    model_path = ''
 
     # Load trained weights (fill in path to trained weights here)
     assert model_path != "", "Provide path to trained weights"
     print("Loading weights from ", model_path)
     model.load_weights(model_path, by_name=True)
 
-    real_test_dir = '/home/buiduchanh/WorkSpace/Javis/Mask_RCNN_train/datasets/bridge/example'
+    real_test_dir = ''
     image_paths = []
     for filename in os.listdir(real_test_dir):
         if os.path.splitext(filename)[1].lower() in ['.png', '.jpg', '.jpeg']:

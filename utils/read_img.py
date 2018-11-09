@@ -1,7 +1,7 @@
 import os
 import cv2
 
-img = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data/result_colour/rust_anno_train/610000298.png'
+img = ''
 
 image = cv2.imread(img)
     

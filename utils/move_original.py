@@ -1,9 +1,9 @@
 import os
 import glob
 import shutil
-IMG = '/home/buiduchanh/WorkSpace/Javis/Supervised/Mask-RCNN/data/images/'
-ANNO = '/home/buiduchanh/WorkSpace/Javis/Supervised/Mask-RCNN/data/annotation/'
-Dir = '/media/buiduchanh/Work/Workspace/Javis/data_javis/nexco/nexco_bridge_data1'
+IMG = ''
+ANNO = ''
+Dir = ''
 for dir1 in os.listdir(Dir):
     subdir1 = os.path.join(Dir,dir1)
     for dir2 in os.listdir(subdir1):

@@ -5,7 +5,6 @@ from skimage import morphology
 import os 
 import glob
 
-# imgname = "/home/buiduchanh/WorkSpace/Javis/Supervised/Mask-RCNN/makedata/result_1.png"
 def process_anno(image, basename, dir, Rot):
     # basename = os.path.splitext(os.path.basename(imgname))[0]
     image = cv2.imread(image)
@@ -64,7 +63,7 @@ def process_anno(image, basename, dir, Rot):
 
 if __name__ == "__main__":
     
-    Root = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data'
+    Root = ''
     subDir = ['rust_anno_train','rust_anno_val']
     for di in subDir:
         Dir = os.path.join(Root, 'result_colour', di)

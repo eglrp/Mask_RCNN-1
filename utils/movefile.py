@@ -3,10 +3,10 @@ import glob
 import shutil
 import random
 
-imgdir  = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data/bridge/valid/images/'
-annodir = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data/bridge/valid/bridge_anno_val'
+imgdir  = ''
+annodir = ''
 
-IMGDIR = '/home/buiduchanh/WorkSpace/Javis/makedata_MaskRCNN/Mask-RCNN/data/images/rust_image_val'
+IMGDIR = ''
 annolist = sorted(glob.glob('{}/*'.format(annodir)))
 
 for an in annolist:
